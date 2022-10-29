@@ -14,10 +14,11 @@ contract APIConsumer is ChainlinkClient {
     uint256 private fee;
     
     /**
-     * Network: Kovan
+     * Network: Goerli
      * Chainlink Oracle contract - 0x2f90A6D021db21e1B2A077c5a37B3C7E75D15b7e
      * Chainlink JobID - 7da2702f37fd48e5b1b9a5715e3509b6
      * Fee: 0.1 LINK
+     *
      */
     constructor() public {
         setPublicChainlinkToken();
